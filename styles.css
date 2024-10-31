@@ -1,0 +1,15 @@
+body {
+    display: flex; /* フレックスボックスを使って配置 */
+    justify-content: center; /* 水平方向に中央揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+    height: 100vh; /* ビューポートの高さに合わせる */
+    margin: 0; /* デフォルトのマージンをリセット */
+    font-family: Arial, sans-serif; /* フォントの指定 */
+    background-color: #f0f0f0; /* 背景色の指定 */
+}
+
+.hello-container {
+    text-align: center; /* テキストを中央揃え */
+    font-size: 48px; /* フォントサイズの指定 */
+    color: #333; /* 文字色の指定 */
+}
